@@ -25,7 +25,7 @@
   }
   
   .header nav ul li a:hover {
-    color: #FFC93C;
+    color: #eb0707;
   }
 
   .button{
@@ -33,7 +33,7 @@
     justify-content:center;
     display: flex;
     flex-direction: right;
-    padding: 14px 40px;
+    padding: 4px 40px;
  
 
     width: 120px;
