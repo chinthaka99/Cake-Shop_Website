@@ -10,8 +10,7 @@ class Section1 extends React.Component {
     return (
         <div className='section_1'>
           <h1>Our Cake</h1>
-
-          <section className='Section_1'>
+          <section >
            <div className='flex'>
            <div className='flex_1'>
                 <img className="sec1_image" src={Image1}></img>
@@ -34,7 +33,6 @@ class Section1 extends React.Component {
 	               quis nostrud exercitation ullamco </p>
             </div>
            </div>
-
           </section>
         </div>
         
