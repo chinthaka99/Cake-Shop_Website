@@ -45,3 +45,15 @@ h1{
     font-size: 50px;
     margin-top: 100px ;
 }
+
+.select-cake-button{
+    padding: 8px 10px;
+ 
+
+    width: 160px;
+    height: 40px;
+    left: 1200px;
+    background-color: white;
+    border-color: 1E96D6;
+    border-radius: 80px;
+}

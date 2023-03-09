@@ -1,21 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/header.js'
-import Hero from './Components/hero.js';
-import './Components/header.css'
-import Section1 from './Components/section1.js';
-import Section2 from './Components/section2';
+import Home from './Pages/Home';
+import Header from './Components/header';
+import Aboutus from './Pages/Aboutus';
+import Hero from './Components/hero';
+import Footer from './Components/footer';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Section1 />
-      <Section2 />
-     
-
+      <Aboutus />
     </div>
   );
 }

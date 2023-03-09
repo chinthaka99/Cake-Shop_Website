@@ -3,6 +3,7 @@ import './section1.css';
 import Image1 from '../Img/BdayCake Image.png'
 import Image2 from '../Img/Wedding cake.png'
 import Image3 from '../Img/CupCake.png'
+import { FaArrowRight } from 'react-icons/fa';
 
 
 class Section1 extends React.Component {
@@ -17,6 +18,7 @@ class Section1 extends React.Component {
                 <h3 className='sec_1_text'>Birthday Cakes</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam,
 	               quis nostrud exercitation ullamco </p>
+                 <button className="select-cake-button">Select Cake <FaArrowRight /></button>
             </div>
 
             <div className='flex_2'>
@@ -24,6 +26,7 @@ class Section1 extends React.Component {
                 <h3 className='sec_1_text' >Wedding Cakes</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam,
 	               quis nostrud exercitation ullamco </p>
+                 <button className="select-cake-button">Select Cake <FaArrowRight /></button>
             </div>
 
             <div className='flex_3'>
@@ -31,6 +34,7 @@ class Section1 extends React.Component {
                 <h3 className='sec_1_text'>Wedding Cakes</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam,
 	               quis nostrud exercitation ullamco </p>
+                 <button className="select-cake-button">Select Cake <FaArrowRight /></button>
             </div>
            </div>
           </section>
